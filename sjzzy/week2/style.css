@@ -1,0 +1,45 @@
+/*1. 清除CSS默认样式*/
+*{margin:0;padding:0;}
+ul,ol{list-style: none;}
+a{text-decoration: none;}
+
+/*2. 写自己的CSS样式-从大到小*/
+.content{
+	margin:0 auto;
+    width:1000px;
+    background-color: #f1f1f1;
+}
+.content h2{
+    line-height: 60px;
+    text-align: center;
+    font-weight: normal;/*去掉加粗*/
+}
+.content p{
+    text-align: center;
+}
+.content .list{
+    margin-top:20px;
+    font-size: 0;
+}
+.content .list li{
+    display: inline-block;/*行内块*/
+    width:200px;
+    text-align: center;
+    margin-right:66px;
+}
+.content .list .noMargin{
+    margin-right: 0;
+}
+.content .list li h5{
+    font-size: 14px;
+    line-height: 36px;
+}
+.content .list li p{
+    text-indent: 2em;/*首行缩进*/
+    text-align: left;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+
+
