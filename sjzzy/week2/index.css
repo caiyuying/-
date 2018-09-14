@@ -1,0 +1,22 @@
+/*
+写css样式需要以下几步：
+1. 清除默认样式(边距、去掉小黑点、序号、下划线)
+2. 再写自己的结构样式
+*/
+
+/*1、清除默认样式*/
+*{margin:0;padding:0;}
+ul,ol{list-style: none;/*去掉小黑点、序号*/}
+a{text-decoration: none;/*去掉下划线*/}
+/*2、写自己的样式*/
+/*书写CSS样式顺序：从大模块到小模块*/
+.content{width:600px;margin:0 auto;/*background-color: #f1f1f1;*/}
+.content h2{
+    /*块级元素：在不设置宽度时，宽度是继承父元素的宽度*/
+    height: 50px;line-height: 50px;text-align: center;color: white;background-color: orange;font-size:20px;}
+.content h3{line-height:36px;font-size: 14px;color: orange;}
+.content h3 a{font-size: 12px;color: blue;}
+.content h4{line-height: 30px;font-size: 14px;color: #1d9fd3;}
+.content p{line-height: 24px;font-size: 12px;color: #666;}
+.content p span{color: orange;}
+.content h5{font-size: 14px;color: orange;line-height: 30px;}
