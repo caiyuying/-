@@ -1,0 +1,67 @@
+.footer {
+    width: 100%;
+    padding: 47px 0 58px 0;
+    background-color: #2e2e2e;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .foot-left {
+    float: left;
+}
+
+.footer .foot-left dl {
+    float: left;
+    margin-left: 60px;
+}
+
+.footer .foot-left .noMargin {
+    margin-left: 0;
+}
+
+.footer .foot-left dl dt {
+    font-size: 16px;
+    line-height: 30px;
+    color: #fefdfd;
+    margin-bottom: 15px;
+}
+
+.footer .foot-left dl dd {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.footer .foot-left dl dd a {
+    color: #a3a3a3;
+}
+
+.footer .foot-right {
+    float: right;
+}
+
+.footer .foot-right .foot-logo {
+    width: 233px;
+    height: 64px;
+    background: url("../img/foot-logo.png") no-repeat;
+}
+
+.footer .foot-right .icon {margin-top: 20px;}
+.footer .foot-right .icon li {float: left;width: 51px;height: 51px;margin-left: 10px;}
+.footer .foot-right .icon .noMargin {margin-left: 0;}
+.footer .foot-right .icon .weibo {background: url("../img/weibo.png") no-repeat;}
+.footer .foot-right .icon .weixin {background: url("../img/weixin.png") no-repeat;}
+.footer .foot-right .icon .iphone {background: url("../img/anzhuo.png") no-repeat;}
+.footer .foot-right .icon .anzhuo {background: url("../img/iphone.png") no-repeat;}
+
+
+
+
+
+
+
+
+
+
