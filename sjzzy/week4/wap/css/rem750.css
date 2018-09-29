@@ -1,0 +1,23 @@
+/***参照iphone6/6s  设计稿尺寸：750***/
+
+html {
+    font-size: 50px;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 85.33px;
+    }
+}

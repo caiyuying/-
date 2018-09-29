@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 50px;
+}
+
+.box{
+    position: relative;
+    width:100%;
+    height:5rem;
+}
+.mother{
+    position: absolute;
+    left:0;
+    top:0;
+    width:4.4rem;
+    height: 5rem;
+    background: url("../img/action3.png") no-repeat;
+    background-size:4.4rem 10rem;
+    -webkit-animation: mother .1s steps(2) infinite;
+    animation: mother .1s steps(2) infinite;
+}
+.son{
+    position: absolute;
+    right:0;
+    bottom:0;
+    width:2.56rem;
+    height: 3.44rem;
+    background: url("../img/child.png") no-repeat;
+    background-size: 2.56rem 6.88rem;
+    -webkit-animation:son .1s steps(2) infinite;
+    animation: son .1s steps(2) infinite;
+}
+
+/*mother*/
+@-webkit-keyframes mother {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position:0 -10rem;
+    }
+}
+@keyframes mother {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position:0 -10rem;
+    }
+}
+/*son*/
+@-webkit-keyframes son {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 0 -6.88rem;
+    }
+}
+@keyframes son {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 0 -6.88rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+

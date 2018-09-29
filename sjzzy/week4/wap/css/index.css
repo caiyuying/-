@@ -1,0 +1,162 @@
+/*header*/
+header{
+    position: fixed;
+    left:0;
+    top:0;
+    z-index:1;
+    width:100%;
+    height: 1.12rem;
+    background-color: #2a2a2a;
+}
+header .logo{
+    float: left;
+    width:2.1rem;
+    height:.62rem;
+    margin:.23rem 0 0 .16rem;
+}
+header .logo img{
+    display: block;
+    width:100%;
+}
+header .line{
+    float: right;
+    margin:.4rem .23rem 0 0;
+}
+header .line span{
+    display: block;
+    width:.36rem;
+    height: .07rem;
+    background-color: #fff;
+    -webkit-border-radius: .05rem;
+    border-radius: .05rem;
+    margin-bottom: .06rem;
+}
+
+/*banner*/
+.banner{
+    position: relative;
+    width:100%;
+    margin-top:1.12rem;
+}
+.banner .banImg{
+    width:100%;
+}
+.banner .banImg .list{
+    width:100%;
+    display: none;
+}
+.banner .banImg .active{
+    display: block;
+}
+.banner .banImg .list img{
+    width:100%;
+}
+.banner .dot{
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: .15rem;
+    margin:auto;
+    width:.85rem;
+    height: .16rem;
+}
+.banner .dot li{
+    float: left;
+    width:.16rem;
+    height: .16rem;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-right:.07rem;
+}
+.banner .dot li:nth-child(4){
+    margin-right:0;
+}
+
+/*allCourses*/
+.allCourses{
+    padding:0 .2rem;
+    background-color: #f8f8f8;
+}
+.allCourses h3{
+    font-size: .26rem;
+    color: #4c4b4b;
+    font-weight: normal;
+    line-height: .99rem;
+}
+.allCourses h3 i{
+    display: inline-block;
+    width:.29rem;
+    height: .35rem;
+    background: url("../img/icon.png") no-repeat;
+    vertical-align: middle;
+    background-size: 2.04rem 1.64rem;
+    margin-right:.13rem;
+
+}
+.allCourses .courses{
+    width:100%;
+    margin-bottom: .3rem;
+}
+.allCourses .courses a{
+    display: block;
+}
+.allCourses .courses .top{
+    width:100%;
+}
+.allCourses .courses .top img{
+    width:100%;
+    -webkit-border-radius: .1rem .1rem 0 0;
+    border-radius: .1rem .1rem 0 0;
+}
+.allCourses .courses .bot{
+    width:100%;
+    padding:.32rem 0 .35rem 0;
+    background-color: #ffffff;
+    text-align: center;
+    -webkit-border-radius:0 0 .1rem .1rem;
+    border-radius: 0 0 .1rem .1rem;
+    -webkit-box-shadow: .01rem .01rem .03rem rgba(178,178,178,.75),-.01rem .01rem .03rem rgba(178,178,178,.75);
+    box-shadow: .01rem .01rem .03rem rgba(178,178,178,.75),-.01rem .01rem .03rem rgba(178,178,178,.75)
+}
+.allCourses .courses .bot h4{
+    margin-bottom: .26rem;
+    font-size: .28rem;
+    line-height: .24rem;
+    font-weight: normal;
+    color: #777777;
+}
+.allCourses .courses .bot p{
+    font-size: .28rem;
+    line-height: .24rem;
+    color: #ed3a3a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

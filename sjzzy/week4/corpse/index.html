@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>第三期CSS正式课</title>
+    <style>
+        *{margin:0;padding:0;}
+        .box{
+            position: absolute;
+            left:0;
+            right:0;
+            margin:auto;
+            width:200px;
+            height: 312px;
+            background: url("img/walkingdead.png")  no-repeat;
+            -webkit-animation: box .1s steps(10) infinite;
+            animation: box .1s steps(10) infinite;
+            /*
+            steps(n)
+            */
+        }
+
+        @-webkit-keyframes box {
+            0%{
+                background-position: 0 0;
+            }
+            100%{
+                background-position:-1800px 0;
+            }
+        }
+        @keyframes box{
+            0%{
+                background-position: 0 0;
+            }
+            100%{
+                background-position:-2000px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<audio src="qingwa.mp3" loop="loop" autoplay="autoplay"></audio>
+<div class="box"></div>
+
+
+</body>
+</html>
